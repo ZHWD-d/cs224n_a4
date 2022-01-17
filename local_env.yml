@@ -1,0 +1,20 @@
+name: local_nmt
+channels:
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - tqdm
+  - docopt
+  - pytorch
+  - nltk
+  - torchvision
+  - pip
+  - pip:
+    - sentencepiece
+    - sacrebleu
